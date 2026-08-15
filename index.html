@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background: blue;
+            color: white;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .box {
+            background: white;
+            margin: 40px 20px;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        button {
+            background: blue;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <div class="box">
+        <h2>Welcome 👋</h2>
+        <p>Ye meri pehli website hai.</p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Hello! Welcome to my website 😊");
+        }
+    </script>
+
+</body>
+</html>
